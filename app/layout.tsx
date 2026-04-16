@@ -7,7 +7,7 @@ import Footer from '@/components/Footer';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Aaditya Dubey | Founder & Community Builder',
+  title: 'Aaditya Dubey',
   description: 'Personal portfolio of Aaditya Dubey - 20 year old CS undergrad, founder, and community builder from Mumbai.',
 };
 
