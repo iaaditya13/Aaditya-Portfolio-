@@ -1,6 +1,6 @@
 export const PORTFOLIO_DATA = {
   about: {
-    headline: "Product-minded entrepreneur seeking PM roles.",
+    headline: "Product-minded builder seeking PM roles.",
     bio: "I'm Aaditya Dubey, a product-minded entrepreneur with hands-on experience in zero-to-one product builds, community-led growth, user research, and cross-functional execution across Web3 and startup ecosystems.",
   },
   journey: [
