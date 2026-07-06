@@ -1,6 +1,7 @@
 import { PORTFOLIO_DATA } from "@/data/portfolio-data";
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import Image from "next/image";
 import { ArrowLeft } from "lucide-react";
 
 export function generateStaticParams() {
@@ -26,9 +27,8 @@ export default function CaseStudyPage({ params }: { params: { slug: string } }) 
         <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-6">{study.title}</h1>
         <p className="text-xl text-zinc-400 mb-12 leading-relaxed">{study.summary}</p>
         
-        <div className="w-full aspect-[2/1] md:aspect-[21/9] bg-zinc-900 border border-zinc-800 rounded-2xl mb-16 flex items-center justify-center relative overflow-hidden shadow-xl">
-             <div className="absolute inset-0 bg-gradient-to-br from-zinc-800 to-zinc-950 opacity-60" />
-             <span className="text-zinc-500 tracking-widest uppercase font-mono z-10 text-xl">{study.cover}</span>
+        <div className="w-full aspect-[2/1] md:aspect-[21/9] rounded-2xl mb-16 relative overflow-hidden shadow-xl">
+          <Image src={study.cover} alt={study.title} fill className="object-cover" priority />
         </div>
         
         <div className="space-y-16">

@@ -13,8 +13,8 @@ export default function Home() {
       <Hero data={PORTFOLIO_DATA} />
       <div className="max-w-4xl mx-auto px-6 w-full flex flex-col gap-32 py-16">
         <About data={PORTFOLIO_DATA.about} />
-        <Journey data={PORTFOLIO_DATA.journey} />
         <Experience data={PORTFOLIO_DATA.experience} />
+        <Journey data={PORTFOLIO_DATA.journey} />
         <CaseStudiesSection data={PORTFOLIO_DATA.caseStudies.slice(0, 2)} />
         <Skills data={PORTFOLIO_DATA.skills} />
         <Contact data={PORTFOLIO_DATA.socials} />

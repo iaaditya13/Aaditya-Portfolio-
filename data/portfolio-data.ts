@@ -1,6 +1,6 @@
 export const PORTFOLIO_DATA = {
   about: {
-    headline: "Product-minded builder seeking PM roles.",
+    headline: "A product-minded builder.",
     bio: "I'm Aaditya Dubey, a product-minded entrepreneur with hands-on experience in zero-to-one product builds, community-led growth, user research, and cross-functional execution across Web3 and startup ecosystems.",
   },
   journey: [
@@ -9,9 +9,21 @@ export const PORTFOLIO_DATA = {
     { year: "2024", title: "Founded Areion Agency", description: "Built a product-led Web3 agency and personal brand reaching 5 lakh+ people, mentoring 10+ founders." },
     { year: "2024", title: "Hackathon Triumphs & IBW", description: "Won 1st place at DMCE Hackathon 3.0, secured 3rd place nationally at Hackoverflow against 70+ teams, and volunteered at India Blockchain Week '24." },
     { year: "2025", title: "BD Manager at Qoneqt", description: "Closed 10+ partnership deals across IITs and NITs, driving pan-India campus adoption." },
-    { year: "2025", title: "Joined CoinGape", description: "Product Owner for First Moverz Club, launching FMC from zero to 300+ quality members." }
+    { year: "2025", title: "Joined CoinGape", description: "Product Owner for First Moverz Club, launching FMC from zero to 300+ quality members." },
+    { year: "2026", title: "EIR Intern at CapsLock Marketplaces", description: "Validated multiple D2C consumer tech ideas, conceived and built ToonMaxxing — a short-form anime platform — acquiring the first 100 paying users as a solo contributor in under 6 weeks." }
   ],
   experience: [
+    {
+      company: "CapsLock Marketplaces",
+      role: "Entrepreneur in Residence Intern",
+      dates: "May 2026 - Jun 2026",
+      bullets: [
+        "Researched and validated multiple D2C consumer tech ideas over a 2-month engagement, using structured market and user research techniques to identify high-potential opportunities.",
+        "Conceived ToonMaxxing, a short-form anime D2C platform, in the final 2.5 weeks of the internship; sized the market, identified key gaps, and ran user research across 150+ users through multiple validation phases.",
+        "Independently built and launched an MVP, acquiring the first 100 paying users through performance marketing while tracking CPM, CPC, CPL, ROAS, and other key funnel metrics to guide scaling decisions.",
+        "Collaborated cross-functionally with tech and marketing teams and curated high-performing ad creatives to drive user acquisition, owning the product end-to-end as a solo contributor."
+      ]
+    },
     {
       company: "CoinGape",
       role: "Growth & Community Intern (Product Owner - First Moverz Club)",
@@ -91,26 +103,51 @@ export const PORTFOLIO_DATA = {
   ],
   caseStudies: [
     {
+      slug: "toonmaxxing-capslock",
+      title: "Building ToonMaxxing at CapsLock",
+      summary: "Pivoting from a dead idea to a paying anime product in under 6 weeks.",
+      cover: "/case-study-4-caps.png",
+      problem: "As an Entrepreneur in Residence Intern at CapsLock Marketplaces, my mandate was open-ended: find a promising D2C consumer tech idea and build it. I spent the first two weeks validating a different consumer tech concept, but when the numbers, market size, and unit economics, didn't hold up, I had to start over from zero with six weeks left.",
+      research: "Went back to first principles and sized the market fresh, looking for gaps competitors weren't addressing. Ran user research across 150+ people through multiple rounds of validation before committing to a direction, landing on short-form anime content as an underserved space.",
+      solution: "Conceived and built ToonMaxxing, a short-form anime D2C platform, solo, from idea to MVP. Designed the product, shipped it, then ran performance marketing campaigns to start acquiring paying users, tracking CPM, CPC, and CPL daily to keep the funnel efficient.",
+      outcome: "Acquired the first 100 paying users within the remaining timeline, having killed one idea and shipped a working, monetizing product in its place, all as a one-person team collaborating with tech and marketing.",
+      learnings: "Killing an idea fast when the data says so is harder than it sounds, but it's what makes room for the idea that actually works. Speed matters more than attachment to a first draft."
+    },
+
+    {
       slug: "scaling-fmc",
       title: "Scaling First Moverz Club",
       summary: "How we took a Web3 community from zero to thousands of active members.",
-      cover: "case-study-1",
+      cover: "/case-study-3-fmc.png",
       problem: "CoinGape needed an engaged community of active traders and Web3 natives in a bear market.",
       research: "Analyzed existing Web3 discord communities. Found a gap in actionable alpha and organized learning.",
       solution: "Created 'First Moverz Club', positioning it as an exclusive alpha group. Hosted weekly AMAs with founders.",
       outcome: "Scaled to 10k+ members within 3 months with a 35% weekly active rate.",
       learnings: "Consistency in events is more important than massive marketing stunts for community retention."
     },
+
     {
       slug: "areion-agency-launch",
       title: "Launching Areion Agency",
-      summary: "Building a profitable marketing service for Web3 startups in 90 days.",
+      summary: "Helping early-stage startups launch and scale without needing big capital.",
       cover: "case-study-2",
-      problem: "Web3 startups struggle with traditional marketing approaches and lack targeted growth loops.",
-      research: "Spoke with 20+ founders who highlighted a need for performance-based community growth.",
-      solution: "Launched Areion offering growth-as-a-service, focusing on Twitter algorithms and Discord funnels.",
-      outcome: "Secured 3 foundational clients and achieved profitability in month 2.",
-      learnings: "Productizing services early reduces sales friction."
+      problem: "While building Cititor, I needed a website and reached out to agencies for help. I found almost none built for early-stage founders, most required capital young or small ideas simply didn't have, even for founders who just wanted to test something small.",
+      research: "Realized this wasn't just my problem. Early founders across India were stuck between wanting to move fast and not having access to affordable, quality execution support to get there.",
+      solution: "Launched Areion, a product-led agency offering web development, AI automation, content creation, and growth services, built to help founders launch and scale without the overhead of hiring a full team.",
+      outcome: "Personally worked with and guided 10+ startups through launch and scale, while building a personal brand reaching 5 lakh+ people through the agency's content and partnerships, including with SkillMafia and HackDaily.life.",
+      learnings: "Founders don't just need execution, they need someone building alongside them who understands the constraints of moving fast with limited capital."
+    },
+
+    {
+      slug: "cititor-launch",
+      title: "Building Cititor",
+      summary: "Making quality books accessible and affordable across Tier 2-3 India.",
+      cover: "case-study-1",
+      problem: "Book vendors outside Mumbai's local train stations gave me easy access to affordable, quality books growing up. Travelling to other states, I saw that same access didn't exist elsewhere; platforms like Amazon and Flipkart were the only option, and they came with overpriced books and inconsistent quality, often damaged in shipping.",
+      research: "Spent time understanding how book buying actually worked outside Mumbai, from pricing to delivery quality, and identified that the gap wasn't availability of books online, it was affordability and trust in what would actually arrive.",
+      solution: "Built Cititor, an online bookstore sourcing and delivering quality books at accessible prices, designed specifically for readers in Tier 2-3 India who'd been priced out or let down by existing platforms.",
+      outcome: "Sold 250+ books across 8+ states, reaching and engaging 5,000+ people and proving that quality, affordable books could reach even remote parts of the country.",
+      learnings: "Access isn't just about a product existing online. It's about pricing and trust; solving both mattered more than just being another bookstore."
     }
   ],
   skills: {

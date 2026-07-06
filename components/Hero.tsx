@@ -27,7 +27,7 @@ export default function Hero({ data }: { data: any }) {
         </p>
 
         <div className="flex flex-col sm:flex-row gap-5 w-full sm:w-auto justify-center max-w-sm sm:max-w-none mx-auto">
-          <a href="https://drive.google.com/drive/folders/1yogwjlVroXOM3vksSsSmBhZ8xCLwpfOO" target="_blank" rel="noopener noreferrer" className="group px-8 py-4 bg-white text-black rounded-full font-bold flex items-center justify-center gap-2 hover:bg-zinc-200 transition-all shadow-[0_0_20px_rgba(255,255,255,0.2)] hover:shadow-[0_0_30px_rgba(255,255,255,0.4)]">
+          <a href="https://drive.google.com/file/d/1FsoMZ9wnLHNKaJDQdeib4bnw-kksAiKg/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="group px-8 py-4 bg-white text-black rounded-full font-bold flex items-center justify-center gap-2 hover:bg-zinc-200 transition-all shadow-[0_0_20px_rgba(255,255,255,0.2)] hover:shadow-[0_0_30px_rgba(255,255,255,0.4)]">
             View Resume 
             <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
           </a>
